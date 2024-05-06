@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    background: #faf6ef;
+    font-family: Helvetica;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 5px;
+    position: fixed;
+    top: 0;
+ border-bottom:1px solid black ;
+ z-index: 10000;
+ background-color: #faf6ef;
+}
+nav > img{
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+nav > span{
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+
+}
+ nav > i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.headerlogo {
+    padding: 0 50px;
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    border-bottom: 1px solid black;
+}
+.big-links{
+    margin: 1% auto;
+    width: 95%;
+    font-size: 120px;
+    font-weight: 500;
+    text-align: center;
+}
+.big-links >a{
+    text-decoration: none;
+    color: black;
+}
+.big-links > a:hover {
+    text-decoration: underline;
+    color: rgb(76, 109, 200);
+
+}
+.bigdot{
+    font-size: 150px;
+    line-height: 120px;
+}
+.video-slider1 {
+    background-color: #d54391;
+    font-size: 40px;
+    font-weight: 500;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black ;
+}
+.video-slider1:hover{
+    color: white;
+    cursor: pointer;
+}
+.supervideo1{
+    width: 100%;
+    margin-top: -4px;
+    border-bottom: 1px solid black;
+
+}
+.videocaption1{
+    font-size: 30px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    
+}
+.videocaption2{
+    font-size: 60px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.learn-more{
+    font-size:60px ;
+     padding: 10px;
+ color: black;
+ margin-bottom: 100px;
+ display: block;
+
+}
+.learn-more:hover{
+    color: rgb(45, 100, 225);
+}
+.book-now{
+    font-weight: 400;
+    padding-top: 30px;
+    font-size: 80px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+ } 
+ .table-div{
+    position: relative;
+}
+.table-div> a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 70%;
+    font-size: 20px;
+}
+.table-div> a:hover{
+    color: rgb(45, 100, 225);
+    border-color: rgb(45, 100, 225);
+
+}
+.table-structure{
+    list-style-type: none;
+}
+.table-structure > li{
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.table-structure> li:last-child{
+    border-bottom: none;
+    margin-bottom: 100px;
+}
+.table-structure .duration{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.table-structure .price{
+    position: absolute;
+    right: 10px;
+}
+.box-container1{
+    width: 100%;
+    height: 90%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.left-box1{
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.right-box1{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+.right-box1 > div,
+.left-box1 > div{
+width: 100%;
+height: 100%;
+background-color: black;
+padding: 50px;
+position: relative;
+}
+.left-box1 > div > a,
+.right-box1 > div > a{
+    font-size: 130px;
+    color: white;
+}
+.left-box1 > div > span,
+.right-box1 > div > span{
+    font-size: 150px;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.advt-slider1{
+    border-bottom: 1px solid black;
+    font-size: 100px;
+}
+.advt-slider1 > img{
+    height: 100px;
+    transform: translateY(15px);
+}
+.advt-slider1 > span{
+    font-size: 100px;
+    font-weight: 600;
+}
+.advt-slider2{
+    border-bottom: 1px solid black;
+    font-size: 100px;
+}
+.advt-slider2 > img{
+    height: 100px;
+    transform: translateY(15px);
+}
+.advt-slider2 > span{
+    font-size: 100px;
+    font-weight: 600;
+}
+.caption3{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 70px;
+    margin-top: 90px;
+}
+.box-container2{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.left-box{
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+.middle-box{
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+ position: absolute;
+ left: 35%;
+    top: 0;
+
+}
+.right-box{
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    position: absolute;
+    left: 70%;
+    top: 0;
+    border-left: 1px solid black;
+}
+.left-box > div >img,
+.middle-box > div >img,
+.right-box > div >img{
+    width:100% ;
+    height: 100%;
+    padding-inline: 30px;
+}
+.contact{
+    background-color: rgb(239, 39, 216);
+    font-size: 40px;
+    font-weight: 100;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.contact{
+    position: relative;
+}
+.contact > a{
+    text-decoration: underline;
+    padding-bottom: 5px;
+    color: black;
+    right: 10%;
+    top: 40%;
+    font-size: 20px;
+    position: absolute;
+}
+.sub > a {
+    text-decoration: underline;
+    padding-bottom: 5px;
+    color: black;
+    right: 0;
+    top: 40%;
+    font-size: 20px;
+    position: absolute;
+}
+.sub > a:hover{
+    color: white;
+}
